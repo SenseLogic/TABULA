@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="2291.2766"
+   height="1963.3689"
+   viewBox="0 0 2291.2767 1963.3689"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   sodipodi:docname="thalix.svg"
+   inkscape:export-filename="/home/eric/data/WORK/PROJECT/TOOL/THALIX/LOGO/thalix.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
+  <defs
+     id="defs4">
+    <marker
+       inkscape:stockid="Arrow1Lstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lstart"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path4170"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(0.8,0,0,0.8,10,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <linearGradient
+       id="SVGID_1_"
+       gradientUnits="userSpaceOnUse"
+       x1="256"
+       y1="514"
+       x2="256"
+       y2="2"
+       gradientTransform="matrix(2.2165177,0,0,-2.2165177,1115.3431,-141.54488)">
+      <stop
+         offset="0"
+         style="stop-color:#2AF598"
+         id="stop2" />
+      <stop
+         offset="1"
+         style="stop-color:#009EFD"
+         id="stop4" />
+    </linearGradient>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.25"
+     inkscape:cx="-1088.2447"
+     inkscape:cy="-24.91276"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     units="px"
+     inkscape:window-width="3840"
+     inkscape:window-height="2095"
+     inkscape:window-x="0"
+     inkscape:window-y="32"
+     inkscape:window-maximized="1"
+     fit-margin-top="100"
+     fit-margin-left="100"
+     fit-margin-right="100"
+     fit-margin-bottom="100"
+     showguides="false"
+     inkscape:guide-bbox="true"
+     inkscape:pagecheckerboard="0">
+    <inkscape:grid
+       type="xygrid"
+       id="grid4149"
+       originx="-537.13373"
+       originy="-454.0895" />
+    <sodipodi:guide
+       position="680.72379,1250.1542"
+       orientation="0,1"
+       id="guide872"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="1022.8667,1314.4399"
+       orientation="1,0"
+       id="guide903"
+       inkscape:locked="false" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-537.13339,1380.8351)">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.66808033px;line-height:0%;font-family:Calibri;-inkscape-font-specification:Calibri;letter-spacing:-11.32050037px;word-spacing:0px;fill:#204cd8;fill-opacity:1;stroke:#208fd8;stroke-width:20;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       x="641.59521"
+       y="472.53381"
+       id="text4177"><tspan
+         sodipodi:role="line"
+         id="tspan4179"
+         x="641.59521"
+         y="472.53381"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:630.12097168px;line-height:1.25;font-family:'Open Sans';-inkscape-font-specification:'Open Sans';letter-spacing:0px;fill:#208fd8;fill-opacity:1;stroke:none;stroke-width:20;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">THALIX</tspan></text>
+    <path
+       style="fill:url(#SVGID_1_);stroke-width:2.21652007"
+       d="m 1507.2057,-757.73687 h -260.627 c -72.3627,0 -131.2355,-58.87292 -131.2355,-131.23558 v -260.62715 c 0,-72.3627 58.8728,-131.2355 131.2355,-131.2355 h 260.627 c 72.3627,0 131.2356,58.8728 131.2356,131.2355 v 260.62715 c 0,72.36266 -58.8729,131.23558 -131.2356,131.23558 z m -260.627,-434.43763 c -23.4751,0 -42.5749,19.0998 -42.5749,42.5749 v 260.62715 c 0,23.47515 19.0998,42.57486 42.5749,42.57486 h 260.627 c 23.4752,0 42.575,-19.09971 42.575,-42.57486 v -260.62715 c 0,-23.4751 -19.0998,-42.5749 -42.575,-42.5749 z m 870.6305,434.43763 h -257.116 c -73.3314,0 -132.9911,-59.65981 -132.9911,-132.99107 v -257.11616 c 0,-73.3313 59.6597,-132.991 132.9911,-132.991 h 257.116 c 73.3313,0 132.991,59.6597 132.991,132.991 v 257.11616 c 0,73.33126 -59.6597,132.99107 -132.991,132.99107 z m -257.116,-434.43763 c -24.4439,0 -44.3305,19.8866 -44.3305,44.3304 v 257.11616 c 0,24.44376 19.8866,44.33035 44.3305,44.33035 h 257.116 c 24.4438,0 44.3304,-19.88659 44.3304,-44.33035 v -257.11616 c 0,-24.4438 -19.8866,-44.3304 -44.3304,-44.3304 z m -352.8875,1046.19653 h -260.627 c -72.3627,0 -131.2355,-58.87292 -131.2355,-131.23558 v -260.62702 c 0,-72.36265 58.8728,-131.23558 131.2355,-131.23558 h 260.627 c 72.3627,0 131.2356,58.87293 131.2356,131.23558 v 260.62702 c 0,72.36266 -58.8729,131.23558 -131.2356,131.23558 z m -260.627,-434.43747 c -23.4751,0 -42.5749,19.09974 -42.5749,42.57487 v 260.62702 c 0,23.47514 19.0998,42.57488 42.5749,42.57488 h 260.627 c 23.4752,0 42.575,-19.09974 42.575,-42.57488 v -260.62702 c 0,-23.47513 -19.0998,-42.57487 -42.575,-42.57487 z m 870.6305,434.43747 h -257.116 c -73.3314,0 -132.9911,-59.65978 -132.9911,-132.99106 v -257.11606 c 0,-73.33127 59.6597,-132.99106 132.9911,-132.99106 h 257.116 c 73.3313,0 132.991,59.65979 132.991,132.99106 v 257.11606 c 0,73.33128 -59.6597,132.99106 -132.991,132.99106 z m -257.116,-434.43747 c -24.4439,0 -44.3305,19.8866 -44.3305,44.33035 v 257.11606 c 0,24.44376 19.8866,44.33036 44.3305,44.33036 h 257.116 c 24.4438,0 44.3304,-19.8866 44.3304,-44.33036 v -257.11606 c 0,-24.44375 -19.8866,-44.33035 -44.3304,-44.33035 z"
+       id="path7"
+       inkscape:connector-curvature="0" />
+    <g
+       id="g9"
+       transform="translate(1680.3395,-1740.8351)" />
+    <g
+       id="g11"
+       transform="translate(1680.3395,-1740.8351)" />
+    <g
+       id="g13"
+       transform="translate(1680.3395,-1740.8351)" />
+    <g
+       id="g15"
+       transform="translate(1680.3395,-1740.8351)" />
+    <g
+       id="g17"
+       transform="translate(1680.3395,-1740.8351)" />
+    <g
+       id="g19"
+       transform="translate(1680.3395,-1740.8351)" />
+    <g
+       id="g21"
+       transform="translate(1680.3395,-1740.8351)" />
+    <g
+       id="g23"
+       transform="translate(1680.3395,-1740.8351)" />
+    <g
+       id="g25"
+       transform="translate(1680.3395,-1740.8351)" />
+    <g
+       id="g27"
+       transform="translate(1680.3395,-1740.8351)" />
+    <g
+       id="g29"
+       transform="translate(1680.3395,-1740.8351)" />
+    <g
+       id="g31"
+       transform="translate(1680.3395,-1740.8351)" />
+    <g
+       id="g33"
+       transform="translate(1680.3395,-1740.8351)" />
+    <g
+       id="g35"
+       transform="translate(1680.3395,-1740.8351)" />
+    <g
+       id="g37"
+       transform="translate(1680.3395,-1740.8351)" />
+  </g>
+</svg>
