@@ -9,7 +9,7 @@ Tabulated data mixer.
 ### Line expression
 
 ```
-<column expression> <column expression>
+<column expression> <column expression> ...
 ```
 
 ### Column expression
