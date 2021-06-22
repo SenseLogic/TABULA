@@ -15,13 +15,19 @@ Tabulated data mixer.
 ### Column expression
 
 ```
-<table letter><column index>
-<table letter><first column index>:<last column index>
+[<column filter>]<table letter><column index>
+[<column filter>]<table letter><first column index>:<last column index>
 ```
 
 The column index starts at one.
 
 If it is negative, it's counted backwards from the last column.
+
+### Column filter
+
+```
+% : remove trailing zeroes from decimal numbers
+```
 
 ### Sample
 

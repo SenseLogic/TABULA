@@ -50,7 +50,9 @@
             first_line,
             first_line_array,
             line_index,
+            output_column,
             output_column_array,
+            output_column_is_numeric,
             output_expression,
             output_expression_array,
             output_line_array,
@@ -99,6 +101,13 @@
 
                 for ( output_expression of output_expression_array )
                 {
+                    output_column_is_numeric = ( output_expression.substring( 0, 1 ) === "%" );
+                    
+                    if ( output_column_is_numeric )
+                    {
+                        output_expression = output_expression.substring( 1 );
+                    }
+
                     table_name = output_expression.substring( 0, 1 );
 
                     if ( table_name === "A"
@@ -154,12 +163,32 @@
                             {
                                 if ( table_name === "A" )
                                 {
-                                    output_column_array.push( first_column_array[ column_index ] );
+                                    output_column = first_column_array[ column_index ];
                                 }
                                 else
                                 {
-                                    output_column_array.push( second_column_array[ column_index ] );
+                                    output_column = second_column_array[ column_index ];
                                 }
+                                
+                                if ( output_column_is_numeric )
+                                {
+                                    output_column = output_column.split( "," ).join( "." );
+                                    
+                                    if ( output_column.indexOf( "." ) >= 0 )
+                                    {
+                                        while ( output_column.substring( output_column.length - 1 ) === "0" )
+                                        {
+                                            output_column = output_column.substring( 0, output_column.length - 1 );
+                                        }
+                                        
+                                        if ( output_column.substring( output_column.length - 1 ) === "." )
+                                        {
+                                            output_column = output_column.substring( 0, output_column.length - 1 );
+                                        }
+                                    }
+                                }
+                                
+                                output_column_array.push( output_column );
                             }
                         }
                         else
