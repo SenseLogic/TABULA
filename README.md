@@ -26,18 +26,18 @@ If it is negative, it's counted backwards from the last column.
 ### Column filter
 
 ```
-% : remove trailing zeroes from decimal numbers
+% : fix the dot character and remove trailing zeroes from decimal numbers
 ```
 
 ### Sample
 
 ```
-A2 A-3:-1 B4 B-1
+A2 %A-3:-1 B4 B-1
 ```
 
 Outputs lines made of :
 - the second column of the first table;
-- the last three columns of the first table;
+- the last three columns of the first table, with fixed numbers;
 - the fourth column of the second table;
 - the last column of the second table.
 
