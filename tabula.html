@@ -47,6 +47,7 @@
             column_separator,
             first_column_array,
             first_column_index,
+            first_line,
             first_line_array,
             line_index,
             output_column_array,
@@ -55,6 +56,7 @@
             output_line_array,
             second_column_array,
             second_column_index,
+            second_line,
             second_line_array,
             table_name;
 
@@ -64,106 +66,115 @@
         output_expression_array = document.getElementById( "OutputExpression" ).value.split( " " );
         output_line_array = [];
 
-        if ( first_line_array.length == second_line_array.length )
+        for ( line_index = 0;
+              line_index < first_line_array.length;
+              ++line_index )
         {
-            for ( line_index = 0;
-                  line_index < first_line_array.length;
-                  ++line_index )
+            output_column_array = [];
+
+            first_line = first_line_array[ line_index ];
+            
+            if ( first_line !== "" )
             {
-                output_column_array = [];
+                first_column_array = first_line.split( column_separator );
 
-                if ( first_line_array[ line_index ] != ""
-                     || second_line_array[ line_index ] != "" )
+                if ( line_index < second_line_array.length )
                 {
-                    first_column_array = first_line_array[ line_index ].split( column_separator );
-                    second_column_array = second_line_array[ line_index ].split( column_separator );
+                    second_line = second_line_array[ line_index ];
+                }
+                else
+                {
+                    second_line = "";
+                }                    
 
-                    for ( output_expression of output_expression_array )
+                
+                if ( second_line !== "" )
+                {
+                    second_column_array = second_line.split( column_separator );
+                }
+                else
+                {
+                    second_column_array = [];
+                }
+
+                for ( output_expression of output_expression_array )
+                {
+                    table_name = output_expression.substring( 0, 1 );
+
+                    if ( table_name === "A"
+                         || table_name === "B" )
                     {
-                        table_name = output_expression.substring( 0, 1 );
-
-                        if ( table_name == "A"
-                             || table_name == "B" )
+                        if ( table_name === "A" )
                         {
-                            if ( table_name == "A" )
+                            column_count = first_column_array.length;
+                        }
+                        else
+                        {
+                            column_count = second_column_array.length;
+                        }
+
+                        column_index_array = output_expression.substring( 1 ).split( ":" );
+                        first_column_index = parseInt( column_index_array[ 0 ] );
+
+                        if ( first_column_index < 0 )
+                        {
+                            first_column_index += column_count;
+                        }
+                        else
+                        {
+                            --first_column_index;
+                        }
+
+                        if ( column_index_array.length == 2 )
+                        {
+                            second_column_index = parseInt( column_index_array[ 1 ] );
+
+                            if ( second_column_index < 0 )
                             {
-                                column_count = first_column_array.length;
+                                second_column_index += column_count;
                             }
                             else
                             {
-                                column_count = second_column_array.length;
+                                --second_column_index;
                             }
+                        }
+                        else
+                        {
+                            second_column_index = first_column_index;
+                        }
 
-                            column_index_array = output_expression.substring( 1 ).split( ":" );
-                            first_column_index = parseInt( column_index_array[ 0 ] );
-
-                            if ( first_column_index < 0 )
+                        if ( first_column_index >= 0
+                             && first_column_index < column_count
+                             && second_column_index >= 0
+                             && second_column_index < column_count )
+                        {
+                            for ( column_index = first_column_index;
+                                  column_index <= second_column_index;
+                                  ++column_index )
                             {
-                                first_column_index += column_count;
-                            }
-                            else
-                            {
-                                --first_column_index;
-                            }
-
-                            if ( column_index_array.length == 2 )
-                            {
-                                second_column_index = parseInt( column_index_array[ 1 ] );
-
-                                if ( second_column_index < 0 )
+                                if ( table_name === "A" )
                                 {
-                                    second_column_index += column_count;
+                                    output_column_array.push( first_column_array[ column_index ] );
                                 }
                                 else
                                 {
-                                    --second_column_index;
-                                }
-                            }
-                            else
-                            {
-                                second_column_index = first_column_index;
-                            }
-
-                            if ( first_column_index < 0
-                                 || first_column_index >= column_count )
-                            {
-                                output_column_array.push( "*** ERROR : Invalid first column index : " + first_column_index );
-                            }
-                            else if ( second_column_index < 0
-                                      || second_column_index >= column_count )
-                            {
-                                output_column_array.push( "*** ERROR : Invalid second column index : " + first_column_index );
-                            }
-                            else
-                            {
-                                for ( column_index = first_column_index;
-                                      column_index <= second_column_index;
-                                      ++column_index )
-                                {
-                                    if ( table_name == "A" )
-                                    {
-                                        output_column_array.push( first_column_array[ column_index ] );
-                                    }
-                                    else
-                                    {
-                                        output_column_array.push( second_column_array[ column_index ] );
-                                    }
+                                    output_column_array.push( second_column_array[ column_index ] );
                                 }
                             }
                         }
                         else
                         {
-                            output_column_array.push( "*** ERROR : Invalid table name : " + table_name );
+                            output_column_array.push( "*** ERROR : Invalid expression : " + output_expression );
                         }
                     }
+                    else
+                    {
+                        output_column_array.push( "*** ERROR : Invalid table name : " + table_name );
+                    }
                 }
-
-                output_line_array.push( output_column_array.join( column_separator ) );
             }
-        }
-        else
-        {
-            output_line_array = [ "*** ERROR : Invalid line count : " + first_line_array.length + " <> " + second_line_array.length ];
+
+            output_line_array.push( output_column_array.join( column_separator ) );
         }
 
         document.getElementById( "OutputTable" ).value = output_line_array.join( "\n" );
