@@ -62,7 +62,7 @@
 
         first_line_array = document.getElementById( "FirstTable" ).value.split( "\n" );
         second_line_array = document.getElementById( "SecondTable" ).value.split( "\n" );
-        column_separator = document.getElementById( "ColumnSeparator" ).value;
+        column_separator = document.getElementById( "ColumnSeparator" ).value.split( "\\t" ).join( "\t" );
         output_expression_array = document.getElementById( "OutputExpression" ).value.split( " " );
         output_line_array = [];
 
