@@ -9,14 +9,14 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="2291.2766"
-   height="1963.3689"
-   viewBox="0 0 2291.2767 1963.3689"
+   width="2515.8296"
+   height="1945.5225"
+   viewBox="0 0 2515.8297 1945.5225"
    id="svg2"
    version="1.1"
    inkscape:version="0.92.3 (2405546, 2018-03-11)"
-   sodipodi:docname="thalix.svg"
-   inkscape:export-filename="/home/eric/data/WORK/PROJECT/TOOL/THALIX/LOGO/thalix.png"
+   sodipodi:docname="tabula.svg"
+   inkscape:export-filename="/home/eric/data/WORK/PROJECT/TOOL/TABULA/LOGO/tabula.png"
    inkscape:export-xdpi="90"
    inkscape:export-ydpi="90">
   <defs
@@ -43,7 +43,7 @@
        y1="514"
        x2="256"
        y2="2"
-       gradientTransform="matrix(2.2165177,0,0,-2.2165177,1115.3431,-141.54488)">
+       gradientTransform="matrix(2.2165177,0,0,-2.2165177,1247.3362,-141.54488)">
       <stop
          offset="0"
          style="stop-color:#2AF598"
@@ -62,8 +62,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.25"
-     inkscape:cx="-1088.2447"
-     inkscape:cy="-24.91276"
+     inkscape:cx="-2213.9614"
+     inkscape:cy="-42.759251"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -83,15 +83,15 @@
     <inkscape:grid
        type="xygrid"
        id="grid4149"
-       originx="-537.13373"
-       originy="-454.0895" />
+       originx="-556.85044"
+       originy="-471.93601" />
     <sodipodi:guide
-       position="680.72379,1250.1542"
+       position="661.00713,1232.3078"
        orientation="0,1"
        id="guide872"
        inkscape:locked="false" />
     <sodipodi:guide
-       position="1022.8667,1314.4399"
+       position="1003.15,1296.5935"
        orientation="1,0"
        id="guide903"
        inkscape:locked="false" />
@@ -112,21 +112,21 @@
      inkscape:label="Calque 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-537.13339,1380.8351)">
+     transform="translate(-556.85006,1380.8351)">
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.66808033px;line-height:0%;font-family:Calibri;-inkscape-font-specification:Calibri;letter-spacing:-11.32050037px;word-spacing:0px;fill:#204cd8;fill-opacity:1;stroke:#208fd8;stroke-width:20;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       x="641.59521"
-       y="472.53381"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.50621128px;line-height:0%;font-family:Calibri;-inkscape-font-specification:Calibri;letter-spacing:-11.13096523px;word-spacing:0px;fill:#204cd8;fill-opacity:1;stroke:#208fd8;stroke-width:19.66514778;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       x="661.23718"
+       y="448.80426"
        id="text4177"><tspan
          sodipodi:role="line"
          id="tspan4179"
-         x="641.59521"
-         y="472.53381"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:630.12097168px;line-height:1.25;font-family:'Open Sans';-inkscape-font-specification:'Open Sans';letter-spacing:0px;fill:#208fd8;fill-opacity:1;stroke:none;stroke-width:20;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">THALIX</tspan></text>
+         x="661.23718"
+         y="448.80426"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:619.57110596px;line-height:1.25;font-family:'Open Sans';-inkscape-font-specification:'Open Sans';letter-spacing:0px;fill:#208fd8;fill-opacity:1;stroke:none;stroke-width:19.66514778;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">TABULA</tspan></text>
     <path
        style="fill:url(#SVGID_1_);stroke-width:2.21652007"
-       d="m 1507.2057,-757.73687 h -260.627 c -72.3627,0 -131.2355,-58.87292 -131.2355,-131.23558 v -260.62715 c 0,-72.3627 58.8728,-131.2355 131.2355,-131.2355 h 260.627 c 72.3627,0 131.2356,58.8728 131.2356,131.2355 v 260.62715 c 0,72.36266 -58.8729,131.23558 -131.2356,131.23558 z m -260.627,-434.43763 c -23.4751,0 -42.5749,19.0998 -42.5749,42.5749 v 260.62715 c 0,23.47515 19.0998,42.57486 42.5749,42.57486 h 260.627 c 23.4752,0 42.575,-19.09971 42.575,-42.57486 v -260.62715 c 0,-23.4751 -19.0998,-42.5749 -42.575,-42.5749 z m 870.6305,434.43763 h -257.116 c -73.3314,0 -132.9911,-59.65981 -132.9911,-132.99107 v -257.11616 c 0,-73.3313 59.6597,-132.991 132.9911,-132.991 h 257.116 c 73.3313,0 132.991,59.6597 132.991,132.991 v 257.11616 c 0,73.33126 -59.6597,132.99107 -132.991,132.99107 z m -257.116,-434.43763 c -24.4439,0 -44.3305,19.8866 -44.3305,44.3304 v 257.11616 c 0,24.44376 19.8866,44.33035 44.3305,44.33035 h 257.116 c 24.4438,0 44.3304,-19.88659 44.3304,-44.33035 v -257.11616 c 0,-24.4438 -19.8866,-44.3304 -44.3304,-44.3304 z m -352.8875,1046.19653 h -260.627 c -72.3627,0 -131.2355,-58.87292 -131.2355,-131.23558 v -260.62702 c 0,-72.36265 58.8728,-131.23558 131.2355,-131.23558 h 260.627 c 72.3627,0 131.2356,58.87293 131.2356,131.23558 v 260.62702 c 0,72.36266 -58.8729,131.23558 -131.2356,131.23558 z m -260.627,-434.43747 c -23.4751,0 -42.5749,19.09974 -42.5749,42.57487 v 260.62702 c 0,23.47514 19.0998,42.57488 42.5749,42.57488 h 260.627 c 23.4752,0 42.575,-19.09974 42.575,-42.57488 v -260.62702 c 0,-23.47513 -19.0998,-42.57487 -42.575,-42.57487 z m 870.6305,434.43747 h -257.116 c -73.3314,0 -132.9911,-59.65978 -132.9911,-132.99106 v -257.11606 c 0,-73.33127 59.6597,-132.99106 132.9911,-132.99106 h 257.116 c 73.3313,0 132.991,59.65979 132.991,132.99106 v 257.11606 c 0,73.33128 -59.6597,132.99106 -132.991,132.99106 z m -257.116,-434.43747 c -24.4439,0 -44.3305,19.8866 -44.3305,44.33035 v 257.11606 c 0,24.44376 19.8866,44.33036 44.3305,44.33036 h 257.116 c 24.4438,0 44.3304,-19.8866 44.3304,-44.33036 v -257.11606 c 0,-24.44375 -19.8866,-44.33035 -44.3304,-44.33035 z"
+       d="m 1639.1988,-757.73687 h -260.627 c -72.3627,0 -131.2355,-58.87292 -131.2355,-131.23558 v -260.62715 c 0,-72.3627 58.8728,-131.2355 131.2355,-131.2355 h 260.627 c 72.3627,0 131.2356,58.8728 131.2356,131.2355 v 260.62715 c 0,72.36266 -58.8729,131.23558 -131.2356,131.23558 z m -260.627,-434.43763 c -23.4751,0 -42.5749,19.0998 -42.5749,42.5749 v 260.62715 c 0,23.47515 19.0998,42.57486 42.5749,42.57486 h 260.627 c 23.4752,0 42.575,-19.09971 42.575,-42.57486 v -260.62715 c 0,-23.4751 -19.0998,-42.5749 -42.575,-42.5749 z m 870.6305,434.43763 h -257.116 c -73.3314,0 -132.9911,-59.65981 -132.9911,-132.99107 v -257.11616 c 0,-73.3313 59.6597,-132.991 132.9911,-132.991 h 257.116 c 73.3313,0 132.991,59.6597 132.991,132.991 v 257.11616 c 0,73.33126 -59.6597,132.99107 -132.991,132.99107 z m -257.116,-434.43763 c -24.4439,0 -44.3305,19.8866 -44.3305,44.3304 v 257.11616 c 0,24.44376 19.8866,44.33035 44.3305,44.33035 h 257.116 c 24.4438,0 44.3304,-19.88659 44.3304,-44.33035 v -257.11616 c 0,-24.4438 -19.8866,-44.3304 -44.3304,-44.3304 z m -352.8875,1046.19653 h -260.627 c -72.3627,0 -131.2355,-58.87292 -131.2355,-131.23558 v -260.62702 c 0,-72.36265 58.8728,-131.23558 131.2355,-131.23558 h 260.627 c 72.3627,0 131.2356,58.87293 131.2356,131.23558 v 260.62702 c 0,72.36266 -58.8729,131.23558 -131.2356,131.23558 z m -260.627,-434.43747 c -23.4751,0 -42.5749,19.09974 -42.5749,42.57487 v 260.62702 c 0,23.47514 19.0998,42.57488 42.5749,42.57488 h 260.627 c 23.4752,0 42.575,-19.09974 42.575,-42.57488 v -260.62702 c 0,-23.47513 -19.0998,-42.57487 -42.575,-42.57487 z m 870.6305,434.43747 h -257.116 c -73.3314,0 -132.9911,-59.65978 -132.9911,-132.99106 v -257.11606 c 0,-73.33127 59.6597,-132.99106 132.9911,-132.99106 h 257.116 c 73.3313,0 132.991,59.65979 132.991,132.99106 v 257.11606 c 0,73.33128 -59.6597,132.99106 -132.991,132.99106 z m -257.116,-434.43747 c -24.4439,0 -44.3305,19.8866 -44.3305,44.33035 v 257.11606 c 0,24.44376 19.8866,44.33036 44.3305,44.33036 h 257.116 c 24.4438,0 44.3304,-19.8866 44.3304,-44.33036 v -257.11606 c 0,-24.44375 -19.8866,-44.33035 -44.3304,-44.33035 z"
        id="path7"
        inkscape:connector-curvature="0" />
     <g

@@ -1,6 +1,6 @@
-![](https://github.com/senselogic/THALIX/blob/master/LOGO/thalix.png)
+![](https://github.com/senselogic/TABULA/blob/master/LOGO/tabula.png)
 
-# Thalix
+# Tabula
 
 Tabulated data mixer.
 
