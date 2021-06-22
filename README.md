@@ -2,7 +2,7 @@
 
 # Tabula
 
-Tabulated data mixer.
+Tabulated data processor.
 
 ## Output expression
 
