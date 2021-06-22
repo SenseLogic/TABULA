@@ -15,8 +15,8 @@ Tabulated data mixer.
 ### Column expression
 
 ```
-<A|B><column index>
-<A|B><first column index>:<last column index>
+<table letter><column index>
+<table letter><first column index>:<last column index>
 ```
 
 The column index starts at one.
